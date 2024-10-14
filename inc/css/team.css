@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    /* font-size: 14px;
+    font-weight: 400; */
+    color: #777;
+}
+
+h1 {
+    font-size: 36px;
+    color: #555;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+#team i {
+    font-size: 26px;
+    color: #555;
+}
+
+#team p {
+    font-weight: 500;
+}
+
+#team img{
+    border: solid #333 1px;
+}
+
+#red .card {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #e74c3c;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+#red .card:hover {
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9e9e9e;
+}
+
+#red .card:hover h3,
+#red .card:hover i {
+    color: #fff;
+}
+
+.lead
+{
+  display: flex;
+  justify-content: center;
+}
+
+#blue .card {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #4285F4;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+#blue .card:hover {
+    background: #4285F4;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9e9e9e;
+}
+
+#blue .card:hover h3,
+#blue .card:hover i {
+    color: #fff;
+}
+
+#green .card {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #0F9D58;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+#green .card:hover {
+    background: #0F9D58;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9e9e9e;
+}
+
+#green .card:hover h3,
+#green .card:hover i {
+    color: #fff;
+}
+
+#yellow .card {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #FBBC04;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+#yellow .card:hover {
+    background: #FBBC04;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9e9e9e;
+}
+
+#yellow .card:hover h3,
+#yellow .card:hover i {
+    color: #fff;
+}
